@@ -12,9 +12,9 @@ module.exports = {
       disabled: 'LOG_DISABLED',
     },
     cors: {
-      origins: 'CORS_ORIGIN',
-      maxAge: 'CORS_MAX_AGE',
-    },
+      origins: 'CORS_ORIGIN', // This should reference an environment variable
+      maxAge: 'CORS_MAX_AGE', // Make sure this too is set in your environment
+  },
     env: {
       env: 'NODE_ENV',
       port: 'PORT',
