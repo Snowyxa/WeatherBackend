@@ -10,7 +10,7 @@ const jwtErrorHandler = require('./jwtErrorHandler');
 
 const NODE_ENV = process.env.NODE_ENV || 'development';
 const CORS_MAX_AGE = process.env.CORS_MAX_AGE || 86400;
-
+//edits
 /**
  * Install all required middlewares in the given app.
  *
